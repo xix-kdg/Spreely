@@ -1,5 +1,8 @@
 package com.spreely.core.network.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class NetworkProduct(
     val id: Int,
     val name: String,
