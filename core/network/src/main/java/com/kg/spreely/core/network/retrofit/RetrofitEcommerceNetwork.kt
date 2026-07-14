@@ -1,9 +1,10 @@
-package com.spreely.core.network.retrofit
+package com.kg.spreely.core.network.retrofit
 
 import androidx.tracing.trace
-import com.spreely.core.network.BuildConfig
-import com.spreely.core.network.datasource.EcommerceNetworkDataSource
-import com.spreely.core.network.model.NetworkProduct
+import com.kg.spreely.core.network.BuildConfig
+import com.kg.spreely.core.network.datasource.EcommerceNetworkDataSource
+import com.kg.spreely.core.network.model.NetworkProduct
+import dagger.Lazy
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import okhttp3.Call
@@ -33,7 +34,7 @@ private data class NetworkResponse<T>(val data: T)
 @Singleton
 internal class RetrofitEcommerceNetwork @Inject constructor(
     networkJson: Json,
-    okhttpCallFactory: dagger.Lazy<Call.Factory>,
+    okhttpCallFactory: Lazy<Call.Factory>,
 ) : EcommerceNetworkDataSource {
 
     private val networkApi = trace("RetrofitEcommerceNetwork") {
