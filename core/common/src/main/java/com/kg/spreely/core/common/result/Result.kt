@@ -1,4 +1,4 @@
-package com.spreely.core.common.result
+package com.kg.spreely.core.common.result
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch

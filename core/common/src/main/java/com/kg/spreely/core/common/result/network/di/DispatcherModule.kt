@@ -1,8 +1,8 @@
-package com.spreely.core.common.result.network.di
+package com.kg.spreely.core.common.result.network.di
 
-import com.spreely.core.common.result.network.Dispatcher
-import com.spreely.core.common.result.network.EcommerceDispatchers.Default
-import com.spreely.core.common.result.network.EcommerceDispatchers.IO
+import com.kg.spreely.core.common.result.network.Dispatcher
+import com.kg.spreely.core.common.result.network.EcommerceDispatchers.Default
+import com.kg.spreely.core.common.result.network.EcommerceDispatchers.IO
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

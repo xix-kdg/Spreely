@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.spreely.core.common"
+    namespace = "com.kg.spreely.core.common"
     compileSdk {
         version = release(37) {
             minorApiLevel = 1

@@ -1,7 +1,7 @@
-package com.spreely.core.network.di
+package com.kg.spreely.core.network.di
 
 import androidx.tracing.trace
-import com.spreely.core.network.BuildConfig
+import com.kg.spreely.core.network.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

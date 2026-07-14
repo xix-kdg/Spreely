@@ -1,4 +1,4 @@
-package com.spreely.core.network.model
+package com.kg.spreely.core.network.model
 
 import kotlinx.serialization.Serializable
 

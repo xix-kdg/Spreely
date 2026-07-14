@@ -1,6 +1,6 @@
-package com.spreely.core.network.datasource
+package com.kg.spreely.core.network.datasource
 
-import com.spreely.core.network.model.NetworkProduct
+import com.kg.spreely.core.network.model.NetworkProduct
 
 interface EcommerceNetworkDataSource {
     suspend fun getProducts(): List<NetworkProduct>

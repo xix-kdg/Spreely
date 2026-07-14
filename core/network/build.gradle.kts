@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.spreely.core.network"
+    namespace = "com.kg.spreely.core.network"
     testOptions.unitTests.isIncludeAndroidResources = true
 
     compileSdk {

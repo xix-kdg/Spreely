@@ -1,4 +1,4 @@
-package com.spreely.core.common.result.network
+package com.kg.spreely.core.common.result.network
 
 import javax.inject.Qualifier
 import kotlin.annotation.AnnotationRetention.RUNTIME
