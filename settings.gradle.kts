@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "spreely"
 include(":app")
 include(":core:network")
+include(":core:common")
